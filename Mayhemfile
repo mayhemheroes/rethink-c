@@ -1,0 +1,7 @@
+project: rnshah9/mayhem-rethink-c
+target: deflate
+image: ghcr.io/rnshah9/playground:rethink-c
+
+cmds:
+  - cmd: /repo/build/app/deflate @@
+    filepath: /test.txt
