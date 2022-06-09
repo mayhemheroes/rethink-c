@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-rethink-c
+project: rethink-c
 target: deflate
 
 cmds:
-  - cmd: /repo/build/app/deflate @@
+  - cmd: /repo/build/app/deflate /test.txt
     filepath: /test.txt
