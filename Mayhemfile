@@ -2,5 +2,4 @@ project: rethink-c
 target: deflate
 
 cmds:
-  - cmd: /repo/build/app/deflate /test.txt
-    filepath: /test.txt
+  - cmd: /deflate @@
